@@ -1,5 +1,6 @@
 # everpeak-analysis
 ConnectaTel — Análisis de Clientes de Telecomunicaciones
+
 🎯 Objetivo del proyecto
 
 El objetivo de este proyecto es analizar el comportamiento de los clientes de ConnectaTel, una empresa de telecomunicaciones en Latinoamérica, para identificar patrones de uso, detectar comportamientos atípicos y segmentar a los usuarios según su nivel de consumo.
@@ -10,6 +11,8 @@ Optimización de planes móviles
 Mejora de la experiencia del cliente
 Estrategias de retención
 Identificación de usuarios de alto valor
+
+
 📁 Datasets utilizados
 
 El análisis se basa en tres fuentes principales de datos:
@@ -17,6 +20,8 @@ El análisis se basa en tres fuentes principales de datos:
 plans.csv → Información de los planes (precio, minutos incluidos, GB, costos extra).
 users.csv → Información de los clientes (edad, ciudad, fecha de registro, plan, churn).
 usage.csv → Registro de uso de servicios (llamadas, mensajes, duración, longitud).
+
+
 🧭 Etapas del análisis
 
 El proyecto se desarrolló en las siguientes fases:
@@ -35,6 +40,8 @@ Segmentación de clientes
 Clasificación por nivel de uso y grupo de edad.
 Insights ejecutivos
 Traducción de hallazgos en recomendaciones de negocio.
+
+
 ▶️ Cómo ejecutar el notebook
 
 Puedes ejecutar este proyecto en Google Colab o Jupyter Notebook.
@@ -50,6 +57,8 @@ pip install pandas numpy matplotlib seaborn
 Abre Jupyter:
 jupyter notebook
 Ejecuta el archivo .ipynb
+
+
 🔁 Guía de reproducción
 
 Para reproducir el análisis correctamente:
